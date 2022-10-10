@@ -19,3 +19,5 @@ If you have finished it lets go running.
 python3 emailscraper.py
 or
 python emailscraper.py
+
+https://(input domain_site)
