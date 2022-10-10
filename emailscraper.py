@@ -11,12 +11,11 @@ urls = deque([user_url])
 scraped_urls = set()
 emails = set()
 count = 0
-limit = int(input('[+] Masukkan limit pencarian: '))
 
 try:
 	while True:
 		count += 1
-		if count > limit:
+		if count > 20:
 			break
 
 		url = urls.popleft()
